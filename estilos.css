@@ -289,6 +289,7 @@ body {
     height: 50%;
     display: grid;
     place-items: center;
+    position: relative;
 }
 .modal-slider {
     width: 300px;
@@ -333,4 +334,15 @@ body {
     transform: translateX(-40%) scale(0.8);
     opacity: 0.5;
     z-index: 0;
+}
+.cards img {
+    width: 100%;
+}
+input {
+    display: none;
+}
+.modal-close {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
