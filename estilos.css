@@ -193,10 +193,12 @@ body {
     display: flex;
     justify-content: center;
     box-sizing: border-box;
+    transition: transform 0.5s ease-in-out;
 }
 .footer div:hover {
     width: 140px;
     height: 55%;
+    transition: transform 0.3s ease-in-out;
 }
 .footer div img {
     width: 160px;
@@ -212,7 +214,7 @@ body {
 }
 /* Loader */
 .loader{
-    background: blue;
+    background: white;
     width: 100%;
     height: 100%;
     display: flex;
@@ -220,7 +222,7 @@ body {
     justify-content: center;
     position: absolute;
     z-index: 3;
-    animation: loader 0.2s linear forwards;
+    animation: loader 2s linear forwards;
 }
 @keyframes loader {
     0%{
@@ -342,6 +344,7 @@ input {
     display: none;
 }
 .modal-close {
+    cursor: pointer;
     position: absolute;
     top: 0;
     right: 0;
