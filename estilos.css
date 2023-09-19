@@ -73,6 +73,10 @@ body {
     font-weight: 300;
     text-decoration: none;
 }
+.navbar-content ul li:hover {
+   border-bottom: 2px solid var(--red);
+   transition: transform 0.3s ease-in-out;
+}
 
 /* Main Content */
 .main-content {
